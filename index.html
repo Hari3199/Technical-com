@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grand{
+            height: 150px;
+            width: 150px;
+            background-color:yellow;
+            margin-top: 100px;
+            margin-left: 100px;
+
+        }
+        .parant{
+            height: 120px;
+            width: 120px;
+            background-color:green;
+            /* position: relative; */
+            /* left:30px; */
+        }
+
+        .child{
+            height: 50px;
+            width:  50px;
+            background-color:blue;
+            position: absolute;
+            left: 100px;
+        }
+        .box2{
+            height: 50px;
+            width:  50px;
+            background-color:pink;
+            position: fixed;
+            left: 300px;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- 1. Explain the different positioning in CSS.
+    2. Explain the difference between git add, git commit, and git push?  -->
+    <div class="box2"></div>
+    <div class="grand">
+        <div class="parant">
+            <div class="child"></div>
+        </div>
+    </div>
+
+</body>
+</html>
